@@ -1,7 +1,3 @@
----
-sort: 1
----
+# Headline
 
-# Docs folder
-
-{% include list.liquid all=true %}
+> An awesome project.
