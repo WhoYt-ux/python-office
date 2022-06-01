@@ -1,7 +1,7 @@
 module.exports = {
     title: 'python-office',// 设置网站标题
     description: 'python-office自动化办公',
-    base: '/docs',// 设置站点根路径
+    base: '/',// 设置站点根路径
     dest: './docs',  // 设置输出目录
     head: [],
     plugins: [],
