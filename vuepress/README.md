@@ -4,7 +4,7 @@ heroImage: http://python4office.cn/images/github-nav.jpg
 heroText: Welcome to python-office
 tagline: Born to win.
 actionText: 开始探索之旅 →
-actionLink: /office/office
+actionLink: /guide/office
 features:
 - title: 关于python-office
   details: Python-office 是一个 Python 自动化办公第三方库，能解决大部分自动化办公的问题。

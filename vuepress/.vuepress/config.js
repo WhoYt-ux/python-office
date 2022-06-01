@@ -8,16 +8,35 @@ module.exports = {
     themeConfig: {
         // 添加导航栏
         nav: [
-            { text: '主页', link: '/' },
-            { text: 'GitHub', link: 'https://github.com/CoderWanFeng/python-office' },
-            { text: '视频教程', link: 'https://www.bilibili.com/video/BV1pT4y1k7FH' },
+            {text: '主页', link: '/'},
+            {text: '交流群', link: 'http://www.python4office.cn/wechat-group/'},
+            {text: '视频教程', link: 'https://www.bilibili.com/video/BV1pT4y1k7FH'},
+            {text: 'GitHub', link: 'https://github.com/CoderWanFeng/python-office'},
+
         ],
         lastUpdated: 'Last Updated',
-        sidebar:[
+        sidebar: [
             '/',
-            '/office/office',
-            '/office/word',
-            '/office/excel',
+            {
+                title: '下载安装',
+                children: [
+                    '/guide/office',
+                ]
+            },
+            {
+                title: '基本功能',
+                children: [
+                    '/office/word',
+                    '/office/excel',
+                ]
+            },
+            {
+                title: '常见问题',
+                children: [
+                    '/qaq/qaq',
+                ]
+            }
+
         ],
     }
 }
